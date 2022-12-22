@@ -883,7 +883,7 @@ h1, h2, h3, h4 {
     transform: translate(-50%, -50%); }
 
 .popular-keywords h3 {
-  font-size: 1.2rem;
+  font-size: 0.5rem !important;
   display: inline-block;
   color: #fff;
   margin-right: .5rem; }
@@ -1637,7 +1637,7 @@ h1, h2, h3, h4 {
       background: rgba(0, 0, 0, 0.2);
       margin: 5px; }
     .single-carousel .owl-dots .owl-dot.active > span {
-      background: #89ba16; }
+      background: #0085ff; }
 
 .single-carousel img {
   max-width: 400px;
