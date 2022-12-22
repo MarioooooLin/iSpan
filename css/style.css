@@ -1512,7 +1512,8 @@ h1, h2, h3, h4 {
     font-weight: 700;
     color: #000; }
   .block__18514 .block__47528 li a {
-    display: block; }
+    display: block; 
+  }
 
 .sidebar-box {
   margin-bottom: 30px;
@@ -1667,3 +1668,172 @@ h1, h2, h3, h4 {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
+
+
+/* 這是slide廣告的樣式--開始 */
+  .box {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: solid 2px #bebebe !important;
+}
+
+.context {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.slide-button {
+    background-color: #0085FF;
+    color: white;
+}
+
+.slide-button:hover {
+    background-color: #89ba16;
+    color: white;
+  }
+  
+  .slide-button a {
+    color: white;
+}
+
+.slide-button a:hover {
+    text-decoration: none;
+}
+.fw-bold a{
+  color: #0085FF;
+    font-weight: 900;
+  }
+  .slide-h3 {
+    font-weight: 900;
+}
+/* 這是slide廣告頁面--結束 */
+
+
+/* 這是商城的css開始 */
+.cause-p1{
+  font-size: 24px;
+  font-weight: bolder;
+  margin-bottom: -5px;
+  margin-top: -8px;
+}
+
+.cause-span1{
+  color: #fff;
+  font-size: 32px;
+  font-weight: bolder;
+}
+.cause-span2{
+  color: #0085FF;
+  font-size: 32px;
+  font-weight:bold;
+}.btn.btn-outline-primary{
+  margin-top: 10px;
+  margin-right: 5px;
+  border: #0085FF 1px solid;
+  border-radius: 15px;
+  background: #fff;
+}
+.col-search{
+  margin-left: -50px;
+}
+.cause-category{
+  color: #0085FF;
+  margin-top: 5px;
+  font-weight: bold;
+}
+.cause-category option{
+  color: #0085FF;
+}
+.text-content{
+  color: #656565;
+  margin-bottom: 0px;
+}
+.img-littlelogo{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  vertical-align: middle;
+}
+.card-contentstyle{
+  margin-top: 10px;
+}
+.teacher-content{
+  margin-top: 15px;
+}
+  .card-contentstyle a div{
+  display: inline-flex;
+  text-align: left;
+}
+.teacher-name{
+  margin-left: 15px;
+  color: #656565;
+}
+.price-content{
+  display: flex;
+  justify-content: end;
+}
+.price-content p{
+  color: #0085FF;
+  font-weight: 600;
+}
+.video-title{
+  font-weight:900;
+}
+.film-number {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #a4a4a4; }
+.film-intro{
+  float:left;
+  background-color: rgb(0, 0, 0,0.47);
+}
+.film-intro h3 , .film-intro h5{
+  color: white;
+  display: block;
+}
+
+@media screen and (max-width:992px) {
+  .col-search{
+    margin-left: 0px;
+  }
+  .title-span1{
+    color: #fff;
+    font-size: 28px;
+    font-weight: bolder;
+  }
+  .title-span2{
+    color: #0085FF;
+    font-size: 28px;
+    font-weight:bold;
+  }
+  .film-intro{
+    max-height: 200px;
+    overflow-y: overlay;
+    border-radius: 12px 12px 12px 12px;
+
+    ::-webkit-scrollbar {
+
+      width: 7px;
+    }
+
+    ::-webkit-scrollbar-button {
+      background: transparent;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-track-piece {
+      background: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+      border-radius: 4px;
+      background-color: rgba(0, 0, 0, 0.4);
+      border: 1px solid slategrey;
+    }
+    ::-webkit-scrollbar-track {
+      box-shadow: transparent;
+    }
+  }
+
+}
+/* 這是商城的css結束 */
