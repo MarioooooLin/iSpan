@@ -220,6 +220,24 @@ jQuery(function ($) {
             nav: false,
             smartSpeed: 1000,
         });
+        // 高級輪播器
+        $(".owl-carousel").owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dot: true,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                600: {
+                    items: 3,
+                },
+                1000: {
+                    items: 5,
+                },
+            },
+        });
     };
     owlCarouselFunction();
 
