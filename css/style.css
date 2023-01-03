@@ -2305,5 +2305,14 @@ h4 {
 }
 
 .owl-carousel .owl-nav button.owl-prev {
-    font-size: 30px;
+    font-size: 80px;
+}
+.owl-carousel .owl-nav button.owl-next {
+    font-size: 80px;
+}
+.owl-nav {
+    text-align: center;
+}
+.owl-dots {
+    text-align: center;
 }
